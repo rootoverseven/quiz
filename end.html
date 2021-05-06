@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz</title>
+    
+    <!-- style.css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+           <i class="fas fa-award award_icon"></i>
+
+    <h3 class="username">well done! <span id="name"></span></h3>
+    <p class="userpoints">Your email: <span id="email"></span></p>
+
+           <p class="userpoints">Your Points <span id="points"></span></p>
+         <p class="usertime"> Quiz Duration <span id="time_taken"></span></p>
+         <p class="userpoints"> Time Taken <span id="sums"></span></p>
+         <h2 class="username">Press the button below in:</h2>
+         <h2 class="username" id="btime">5 </h2>
+
+
+<form class="welcome_form" method="post" action="submit.php" >
+<input type="hidden" id="n" name="name" />
+<input type="hidden" id="e" name="email" />
+<input type="hidden" id="p" name="point" />
+<input type="hidden" id="t" name="time" />
+<br>
+<button id="done">Done</button>
+</form>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d56261bbb9.js"></script>
+
+
+        <!-- user info -->
+        <script src="dist/js/userInfo.js"></script>
+        <script src="dist/js/t2.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz</title>
+    
+    <!-- style.css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    
+    <div id="logo1">
+        <img src="dist/logo/l1.png">
+
+    </div>
+    
+    <div id="logo2">
+        <img src="dist/logo/l222.png">
+
+    </div>
+    
+    <div class="wrapper">
+        <div class="welcome_text">
+            <h1 class="userpoints"><b>Engineer's Day Quiz:</b></h1> 
+            <br> <br> <br> 
+            <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)" >
+                <h2 class="userpoints">Enter Your Name:</h2>
+                <input type="text" name="name"><br>
+                <h2 class="userpoints">Enter Your Email:</h2>
+                <input type="text" name="email"><br>
+                <!--<button id="btn">Start Quiz</button>-->
+                <h2 class="userpoints">Your Quiz will start shortly</h2>
+                <h2 class="userpoints" id="startTime"></h2>
+                <h2 class="userpoints" id="demo"></h2>
+                <p id="dem"></p><br><br><br>
+		<input id="ls" type="submit" value=" "/>
+            </form>
+            
+        </div>
+    </div>
+
+    <!-- site.js -->
+    <script src="dist/js/start.js"></script>
+    <script src="dist/js/s.js"></script>
+</body>
+</html>
