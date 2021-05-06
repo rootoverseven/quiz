@@ -51,7 +51,7 @@ let questions = [
   },
   {
     id: 5,
-    question: "Q3. What is Tarun's favourite food?",
+    question: "Q3. What is Piyush's favourite food?",
     answer: "Paneer",
     options: [
       "Chowmin",
